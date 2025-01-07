@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Work Sans", serif;
+}
+.banner {
+  background: linear-gradient(
+      0deg,
+      rgb(9, 9, 9) 2.884%,
+      rgba(16, 16, 16, 0) 101.034%
+    ),
+    url(img/hero-bg.png);
+
+  background-size: cover;
+  background-position: center;
+
+  background-repeat: no-repeat;
+}
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 920px;
+}
+.b-content {
+  width: 50%;
+  text-align: center;
+}
+.b-content h5 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  color: white;
+}
+.b-content h2 {
+  font-size: 50px;
+  line-height: 80px;
+  color: white;
+}
+.b-content p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 32px
+}
+.banner-btn {
+  text-align: center;
+  margin-right: 80px;
+}
+.banner-btn button {
+  padding: 21px 32px 21px 32px;
+  border-radius: 8px;
+  background: rgb(82, 195, 3);
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  color: white;
+  cursor: pointer;
+}
