@@ -17,6 +17,7 @@ body {
   background-position: center;
 
   background-repeat: no-repeat;
+  margin-bottom: 120px;
 }
 .banner-container {
   display: flex;
@@ -61,3 +62,76 @@ body {
   color: white;
   cursor: pointer;
 }
+
+/* brand start */
+  .brand{
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+  .brand-card{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+  }
+  .brand-title-part{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .brand-title-part h2{
+    font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+  }
+  .brand-title-part h5{
+    font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+    color: #707070;
+  }
+  .card{
+    width: 424px;
+    text-align: center;
+  }
+  .card span{
+    border-radius: 8px;
+background: rgba(82, 195, 3, 0.15);
+ padding: 14px 32px 14px 32px;
+ font-size: 24px;
+font-weight: 600;
+line-height: 28px;
+  
+  }
+  .card img{
+    width: 400px;
+    margin-bottom: 32px;
+  }
+  .card h3{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 40px;
+font-weight: 600;
+line-height: 47px;
+  }
+  .card p{
+    font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+color: #707070;
+  }
+  .brand-btn{
+    text-align: center;
+    margin-top: 60px;
+  }
+  .brand-btn button{
+    padding: 21px 32px 21px 32px;
+  border-radius: 8px;
+  background: rgb(82, 195, 3);
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  color: white;
+  cursor: pointer;
+  }
+/* brand end */
